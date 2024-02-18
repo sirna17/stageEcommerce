@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteRule "^product-([0-9]+).html$" product.php?id_product=$1 [L]
+
+
+
+
+
+
+
